@@ -1,0 +1,37 @@
+ * {
+    color: #35404B;
+    font-family: 'Inter', sans-serif;
+    text-align: left;
+    box-sizing: border-box;
+
+ }
+
+ 
+
+ .conteudo-topo {
+    padding-top: 01em;
+    padding-left: 03em;
+    padding-bottom: 01em;
+    background: rgba(212, 215, 214, 0.2);
+ }
+
+ .conteudo-topo h1 {
+    font-weight: 800;
+
+ }
+
+ .conteudo-topo p {
+    font-size: 20px;
+    font-weight: 500;
+ }
+
+
+ .conteudo-curso {
+    padding-left: 04em;
+
+ }
+
+ .conteudo-curso il {
+    list-style-type: disc;
+
+ }
