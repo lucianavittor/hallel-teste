@@ -2,22 +2,46 @@
     color: #35404B;
     font-family: 'Inter', sans-serif;
     text-align: left;
-    box-sizing: border-box;
-
  }
 
- 
+ .container {
+    bottom: 05em;
+ }
+
+ .containerDescCurso {
+    height: 100%;
+ }
+
+
+ .left {
+    width: 50%;
+    height: auto;
+    float: left;
+ }
+
+ .right {
+    width: 30%;
+    height: 100%;
+    background: url('../../images/fundoCapaCurso.png') no-repeat center;
+    background-size: cover;
+    left: 60%;
+    float: left;
+    margin-top: 03em;
+    top: 05em;
+    position: sticky;
+ }
+
 
  .conteudo-topo {
     padding-top: 01em;
     padding-left: 03em;
     padding-bottom: 01em;
     background: rgba(212, 215, 214, 0.2);
+
  }
 
  .conteudo-topo h1 {
     font-weight: 800;
-
  }
 
  .conteudo-topo p {
@@ -25,13 +49,129 @@
     font-weight: 500;
  }
 
-
  .conteudo-curso {
     padding-left: 04em;
-
  }
 
  .conteudo-curso il {
     list-style-type: disc;
+ }
 
+ .cart-image {
+    width: 100%;
+    height: 100%;
+    background: url('../../images/capacurso.png') no-repeat center;
+    background-size: cover;
+    margin-right: 10px;
+    top: 10px;
+    position: sticky;
+ }
+
+ .icones {
+    margin-left: 0.1em;
+    margin-top: 0.3em;
+    position: sticky;
+
+ }
+
+ #icone1 {
+    width: 36px;
+    height: 36px;
+    background: url('../../images/icon1.png') no-repeat center;
+    background-size: cover;
+    margin-right: 10px;
+    top: 140px;
+
+ }
+
+ #icone2 {
+    width: 36px;
+    height: 36px;
+    background: url('../../images/icon2.png') no-repeat center;
+    background-size: cover;
+    margin-right: 10px;
+    top: 190px;
+
+ }
+
+ #icone3 {
+    width: 36px;
+    height: 36px;
+    background: url('../../images/icon3.png') no-repeat center;
+    background-size: cover;
+    margin-right: 10px;
+    top: 280px;
+
+ }
+
+ #icone4 {
+    width: 36px;
+    height: 36px;
+    background: url('../../images/icon4.png') no-repeat center;
+    background-size: cover;
+    margin-right: 10px;
+    top: 370px;
+
+ }
+
+ .capacurso-infos img,
+ p {
+    display: inline-block;
+ }
+
+ .capacurso-infos p {
+    position: sticky;
+ }
+
+ .capacurso-infos #txt-icon1 {
+    padding-right: 0.3em;
+    top: 145px;
+    position: sticky;
+ }
+
+ .capacurso-infos #txt-icon2 {
+    padding-right: 0.3em;
+    top: 230px;
+    position: sticky;
+ }
+
+ .capacurso-infos #txt-icon3 {
+    padding-right: 0.3em;
+    top: 320px;
+    position: sticky;
+ }
+
+ .capacurso-infos #txt-icon4 {
+    padding-right: 0.3em;
+    top: 410px;
+    position: sticky;
+ }
+
+ .button {
+   margin: 0.1em;
+    width: 100%;
+    height: 03em;
+    background-color: #028c33;
+    color: aliceblue;
+
+    text-align: center;
+    font-weight: 500;
+    font-family: 'Inter';
+    border-radius: 8px;
+    border: none;
+    box-shadow: #35404B;
+    position: sticky;
+
+ }
+
+ #button1 {
+    top: 10px;
+    margin-top: 10px;
+    position: sticky;
+ }
+
+ #button2 {
+    top: 10px;
+    margin-top: 10px;
+    position: sticky;
  }

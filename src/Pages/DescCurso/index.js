@@ -1,23 +1,30 @@
 import './descCurso.css'
+import CapaCurso from '../../images/capacurso.png'
+import Icon1 from '../../images/icon1.png'
+import Icon2 from '../../images/icon2.png'
+import Icon3 from '../../images/icon3.png'
+import Icon4 from '../../images/icon4.png'
+
 
 
 function DescCurso() {
     return (
 
+        <div className='container'>
         <div className='containerDescCurso'>
+
+            <section className="conteudo-topo">
+                <h1>
+                    Curso de Liturgia
+                </h1>
+                <p>
+                    Assista as aulas e tenha acesso aos módulos especiais, com exercícios e material exclusivo!
+                </p>
+            </section>
 
             <div className='left'>
 
-                <div className="conteudo-topo">
-                    <h1>
-                        Curso de Liturgia
-                    </h1>
-                    <p>
-                        Assista as aulas e tenha acesso aos módulos especiais, com exercícios e material exclusivo!
-                    </p>
-                </div>
-
-                <div className="conteudo-curso">
+                <section className="conteudo-curso">
                     <h2> O que você irá aprender: </h2>
 
                     <ul>
@@ -55,15 +62,36 @@ function DescCurso() {
                         College na Virginia, pesquisou uma das mais obscuras palavras em latim...
                     </p>
 
-                </div>
+                </section>
+
             </div>
 
             <div className='right'>
-                
+
+                <img src={CapaCurso} alt= "capa do curso" className='cart-image'/>
+
+                <section className='capacurso-infos'>
+                    <img src={Icon1} alt='icone 1' className='icones' id='icone1'/>
+                    <p id='txt-icon1'> 12h de duração </p> <br/>
+
+                    <img src={Icon2} alt='icone 2' className='icones'id='icone2'/> 
+                    <p id='txt-icon2'> 05 materias disponíveis para download </p> <br/>
+
+                    <img src={Icon3} alt='icone 3' className='icones' id='icone3' /> 
+                    <p id='txt-icon3' > 03 testes de conhecimento </p> <br/>
+
+                    <img src={Icon4} alt='icone 4' className='icones' id='icone4'/> 
+                    <p id='txt-icon4'> Certificado assinado pelo professor </p>
+
+                    <button className='button' id='button1'> MATRICULAR-ME </button>
+                    <button className='button' id='button2'> ADICIONAR AOS FAVORITOS </button>
+                </section>
 
             </div>
 
         </div>
+        </div>
+
 
     );
 
