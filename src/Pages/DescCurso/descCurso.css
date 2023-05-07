@@ -57,6 +57,20 @@
     list-style-type: disc;
  }
 
+ .conteudo-curso #modulo{
+
+   width: 270px;
+   height: 26px; 
+  
+   background: rgba(2, 140, 51, 0.2);
+ }
+
+ #modulo label{
+   padding: 0.1em;
+   margin-left: 10px;
+   font-weight: 500;
+ }
+
  .cart-image {
     width: 100%;
     height: 100%;
@@ -120,6 +134,7 @@
  }
 
  .capacurso-infos p {
+   font-weight: 500;
     position: sticky;
  }
 

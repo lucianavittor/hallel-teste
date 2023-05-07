@@ -35,7 +35,7 @@ function DescCurso() {
 
                     <h2> Conteúdo e materiais: </h2>
 
-                    <span> MÓDULO 1 </span>
+                    <div id='modulo'> <label> MÓDULO 1 </label> </div>
                     <ul>
                         <li> AULA 01 - TEMA 01 </li>
                         <li> AULA 02 - TEMA 02 </li>
@@ -45,7 +45,7 @@ function DescCurso() {
                         <li> TESTE DE CONHECIMENTO </li>
                     </ul>
 
-                    <span> MÓDULO 2 </span>
+                    <div id='modulo'> <label> MÓDULO 2 </label> </div>
                     <ul>
                         <li> AULA 01 - TEMA 01 </li>
                         <li> AULA 02 - TEMA 02 </li>
